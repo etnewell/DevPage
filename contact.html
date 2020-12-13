@@ -12,7 +12,6 @@
 </head>
 <body>
     <!-- Nav Bar -->
-
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="index.html">Personals</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -24,30 +23,41 @@
               <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="Pages/portfolio.html">Portfolio</a>
+              <a class="nav-link" href="portfolio.html">Portfolio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="Pages/contact.html">Contact</a>
+              <a class="nav-link" href="contact.html">Contact</a>
             </li>
-            </ul>
-        </div>
-    </nav>
-    <!-- portfolio head and pictures below it -->
+        </ul>
+    </div>
+</nav>
+    <!-- contact header with inputs for name email and message and submit button -->
 
     <div class="container">
         <div class="row">
-          <div class="col-6 col-sm-3"><img src="HTML-easy-use-pictures/033B0CBD-7214-4CB0-BD41-BE489FE82BAB.jpeg" class="img-fluid" alt="Responsive image"></div>
-          <div class="col-6 col-sm-3"><img src="HTML-easy-use-pictures/268B3D90-17F4-4A19-8C89-9DA4C535788B.jpeg" class="img-fluid" alt="Responsive image"></div>
-      
-          <!-- Force next columns to break to new line -->
+          <div class="col">CONTACT</div>
+          <div class="col"></div>
           <div class="w-100"></div>
-      
-          <div class="col-6 col-sm-3"><img src="HTML-easy-use-pictures/30296086-24C2-4E17-978C-201D0767AE72.jpeg" class="img-fluid" alt="Responsive image"></div>
-          <div class="col-6 col-sm-3"><img src="HTML-easy-use-pictures/411C7B56-45A2-47F1-A042-9687861CB9DE.jpeg" class="img-fluid" alt="Responsive image"></div>
+          <div class="col">Hey, leave your info and I'll get back to you if you have any inquiries.</div>
+          <div class="col">
+              <form>
+            <div class="form-group">
+              <label for="formGroupExampleInput">Name</label>
+              <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Name">
+            </div>
+            <div class="form-group">
+              <label for="formGroupExampleInput2">Email</label>
+              <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Email">
+            </div>
+            <div class="form-group">
+                <label for="formGroupExampleInput2">Inquiry</label>
+                <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Message">
+              </div>
+          </form>
+          <button type="button" class="btn btn-dark">Submit</button>
+        </div>
         </div>
       </div>
-
-
 
 <!-- Bootstrap CSS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
