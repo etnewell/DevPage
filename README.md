@@ -1,8 +1,4 @@
-# HW2repo
-
-# Goal
--In this assignment I was tasked with creating a from scratch website using bootstrap elements that are dynamic and respond to the changing size of the page.
--I needed links that worked in a navbar and different elements talking about things I do, a page where they can contact me and a page where they can see a few of things I've done.
+# DevPage
 
 # Execution
 -I created my home page simply to state a few things about myself, I made the navbar the same on all pages and the title part links to the home page
